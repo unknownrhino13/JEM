@@ -418,7 +418,6 @@ def main(args):
             l_p_x = 0
             l_p_y_given_x = 0
             l_p_x_y = 0
-            l_reg = 0
 
             # ----- P(x) term -----
             if args.p_x_weight > 0:
@@ -577,7 +576,6 @@ if __name__ == "__main__":
     parser.add_argument("--p_x_weight", type=float, default=1.)
     parser.add_argument("--p_y_given_x_weight", type=float, default=1.)
     parser.add_argument("--p_x_y_weight", type=float, default=0.)
-    parser.add_argument("--p_reg_weight", type=float, default=0.0)
     # regularization
     parser.add_argument("--dropout_rate", type=float, default=0.0)
     parser.add_argument("--sigma", type=float, default=5e-2,

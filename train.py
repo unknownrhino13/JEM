@@ -679,7 +679,7 @@ def main(args):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser("Energy Based Models and Shit")
+    parser = argparse.ArgumentParser("Energy Based Models")
     parser.add_argument("--dataset", type=str, default="gloss", choices=["cifar10", "svhn", "cifar100", "gloss", "imagenet"])
     parser.add_argument("--data_root", type=str, default="../data")
     # optimization

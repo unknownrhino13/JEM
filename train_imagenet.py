@@ -615,7 +615,6 @@ if __name__ == "__main__":
     parser.add_argument("--clamp", action="store_true", default=None)
     parser.add_argument("--lights", type=int, default=None)
     parser.add_argument("--latent_dim", type=int, default=1000)
-    parser.add_argument("--grad_balance_beta", type=float, default=1.0)
     parser.add_argument("--sample_posterior", type=bool, default=False)
 
     args = parser.parse_args()

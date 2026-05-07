@@ -50,7 +50,7 @@ For 224×224 inputs, latents are `(B, 4, 28, 28)`. The encoder mean is used by d
 
 **CIFAR-10** is downloaded automatically via torchvision.
 
-**Gloss** — contact the authors via the [dataset page](https://www.nature.com/articles/s41562-021-01097-6#data-availability).
+**Gloss** — [dataset page](https://www.nature.com/articles/s41562-021-01097-6#data-availability).
 
 **ImageNet (ILSVRC 2012)** — requires registration at https://image-net.org. Once downloaded, extract into the standard synset folder structure expected by torchvision.
 

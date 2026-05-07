@@ -2,7 +2,7 @@
 
 Training Joint Energy-Based Models for image generation and classification, with two variants:
 
-- **Pixel-space JEM** (`train.py`) — operates directly on RGB images; supports CIFAR-10 and Gloss datasets with built-in FID evaluation via Clean-FID
+- **Pixel-space JEM** (`train.py`) — operates directly on RGB images; supports CIFAR-10 and Gloss datasets 
 - **Latent-space JEM** (`train_imagenet.py`) — encodes images into the latent space of a frozen Stable Diffusion VAE before running SGLD; enables ImageNet-scale (1000-class, 224×224) training
 
 Both variants use a Wide ResNet energy function trained with Stochastic Gradient Langevin Dynamics (SGLD) and support joint objectives.

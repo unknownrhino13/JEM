@@ -569,7 +569,7 @@ def main(args):
                 g_p_yx = grad_norm_from_loss(l_p_y_given_x, grad_params).detach()
                 
 
-                correction = (g_p_yx2 / (g_p_x2 + grad_eps))
+                correction = (g_p_yx / (g_p_x + grad_eps))
         
                 L = args.p_x_weight * correction * l_p_x + args.p_y_given_x_weight * l_p_y_given_x
             
